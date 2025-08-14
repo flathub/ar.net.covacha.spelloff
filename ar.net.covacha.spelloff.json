@@ -8,7 +8,8 @@
 	"command": "spelloff",
 	"finish-args": [
 		"--share=ipc",
-		"--socket=x11",
+		"--socket=fallback-x11",
+		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--device=dri",
 		"--share=network"
@@ -20,14 +21,14 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v2.6.tar.gz",
+					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v2.7.tar.gz",
 					"strip-components": 0,
-					"sha256": "37a9a0ee37f120eee572cbb4e49c1fa0593f65f4cb314a39a1faabb33701ee77"
+					"sha256": "df9e7820c64dceb325f7aaf1b36f530595c7de48fc08e642fa2d980ea18f14c4"
 				},
 				{
 					"type": "file",
-					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v2.6.pck",
-					"sha256": "f3f64350a4cb9ea2ea0e04d9907a4fbd0423d804b23c95e0a201a30ad75aa88d",
+					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v2.7.pck",
+					"sha256": "2b2b1d22efcccd468b8f657b52aacfcb166405eaa722253bdf21c679042c4f25",
 					"dest-filename": "spelloff.pck"
 				},
 				{
@@ -37,13 +38,25 @@
 						"cd /app/bin",
 						"/app/bin/godot-runner --main-pack /app/bin/spelloff.pck \"$@\""
 					]
+				},
+				{
+					"type": "file",
+					"path": "ar.net.covacha.spelloff.desktop"
+				},
+				{
+					"type": "file",
+					"path": "ar.net.covacha.spelloff.appdata.xml"
+				},
+				{
+					"type": "file",
+					"path": "icon-256.png"
 				}
 			],
 			"build-commands": [
 				"install -Dm755 spelloff.sh /app/bin/spelloff",
 				"install -Dm644 spelloff.pck /app/bin/spelloff.pck",
-				"install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/ar.net.covacha.spelloff.desktop",
-				"install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/ar.net.covacha.spelloff.metainfo.xml",
+				"install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/${FLATPAK_ID}.desktop",
+				"install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml",
 				"install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png"
 			]
 		}

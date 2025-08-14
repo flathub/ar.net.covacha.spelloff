@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Spelloff
+GenericName=Spelloff
+Comment=The orb ponderer's arena FPS
+Exec=spelloff
+Icon=ar.net.covacha.spelloff
+Type=Application
+Categories=Game
