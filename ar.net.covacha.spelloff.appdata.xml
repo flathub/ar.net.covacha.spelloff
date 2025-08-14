@@ -30,14 +30,14 @@
   <screenshots>
     <screenshot type="default">
       	<image>
-          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/screenshots/duel.png
+          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/duel.png
       </image>
       <caption>Duel game in progress</caption>
     </screenshot>
     
     <screenshot>
       	<image>
-          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/screenshots/end.png
+          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/end.png
       </image>
       <caption>Finished game, with final scores displayed</caption>
     </screenshot>
