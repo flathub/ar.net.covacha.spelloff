@@ -23,10 +23,10 @@
   <url type="vcs-browser">https://covacha.net.ar/~ramiro/public_git/spelloff</url>
   
   <description>
+	  <p><em>This game is an early prototype.</em></p>
 	  <p>
 	    Spelloff is a multiplayer first-person shooter game. It plays like traditional arena-shooters such as Quake. It features fast-paced 1 vs. 1 duels and configurable free and team deathmatch modes.
     </p>
-	  <p>This game is an early prototype.</p>
   </description>
   
   <screenshots>
