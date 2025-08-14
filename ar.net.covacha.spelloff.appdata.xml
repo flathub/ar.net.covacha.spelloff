@@ -29,14 +29,14 @@
   </description>
   
   <screenshots>
-    <screenshot type="default">
+    <screenshot environment="gnome" type="default">
       	<image>
           https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/duel.png
       </image>
       <caption>Duel game in progress</caption>
     </screenshot>
     
-    <screenshot>
+    <screenshot environment="gnome">
       	<image>
           https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/end.png
       </image>
