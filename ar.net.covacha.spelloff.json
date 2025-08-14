@@ -38,13 +38,25 @@
 						"cd /app/bin",
 						"/app/bin/godot-runner --main-pack /app/bin/spelloff.pck \"$@\""
 					]
+				},
+				{
+					"type": "file",
+					"path": "ar.net.covacha.spelloff.desktop"
+				},
+				{
+					"type": "file",
+					"path": "ar.net.covacha.spelloff.appdata.xml"
+				},
+				{
+					"type": "file",
+					"path": "icon-256.png"
 				}
 			],
 			"build-commands": [
 				"install -Dm755 spelloff.sh /app/bin/spelloff",
 				"install -Dm644 spelloff.pck /app/bin/spelloff.pck",
-				"install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/ar.net.covacha.spelloff.desktop",
-				"install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/ar.net.covacha.spelloff.metainfo.xml",
+				"install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/${FLATPAK_ID}.desktop",
+				"install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml",
 				"install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png"
 			]
 		}
