@@ -58,13 +58,22 @@
   
   <releases>
     <release version="2.7" date="2025-08-14">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
+      <description>
+        <ul>
+          <li>
+            Implemented damage dealt batching to allow damage from each lightning shot bullet to be shown added up.
+          </li>
+          <li>
+            Implemented camera tilting, applied when strafing and upon receiving knockback. A preference to disabled was added to the preferences menu too.
+          </li>
+        </ul>
+      </description>
     </release>
+    
     <release version="2.6" date="2025-08-13">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
     </release>
+    
     <release version="2.5" date="2025-08-11">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
     </release>
   </releases>
 </component>
