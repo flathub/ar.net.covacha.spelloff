@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>ar.net.covacha.spelloff</id>
+  <launchable type="desktop-id">ar.net.covacha.spelloff.desktop</launchable>
+  
+  <name>Spelloff</name>
+  <developer_name>Ramiro Basile and Spelloff contributors</developer_name>
+  
+  <project_license>GPL-3.0</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  
+	<categories>
+	  <category>Game</category>
+	</categories>
+  
+  <summary>The orb ponderer's arena first-person shooter</summary>
+  
+  <url type="homepage">https://covacha.net.ar/~ramiro/public_git/spelloff</url>
+  <url type="contact">https://covacha.net.ar/~ramiro/</url>
+  <url type="donation">https://ramirobasile.itch.io/spelloff</url>
+  <url type="vcs-browser">https://covacha.net.ar/~ramiro/public_git/spelloff</url>
+  
+  <description>
+	  <p><i>This game is an early prototype.</i></p>
+	  <p>
+	    Spelloff is a multiplayer first-person shooter game. It plays like traditional arena-shooters such as Quake. It features fast-paced 1 vs. 1 duels and configurable free and team deathmatch modes.
+    </p>
+  </description>
+  
+  <screenshots>
+    <screenshot type="default">
+      	<image>
+          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/screenshots/duel.png
+      </image>
+      <caption>Duel game in progress</caption>
+    </screenshot>
+    
+    <screenshot>
+      	<image>
+          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/screenshots/end.png
+      </image>
+      <caption>Finished game, with final scores displayed</caption>
+    </screenshot>
+  </screenshots>
+  
+  <branding>
+    <color type="primary" scheme_preference="light">#d64d4d</color>
+    <color type="primary" scheme_preference="dark">#7d0000</color>
+  </branding>
+  
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">moderate</content_attribute>
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+  </content_rating>
+  
+  <releases>
+    <release version="2.7" date="2025-08-14">
+      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
+    </release>
+    <release version="2.6" date="2025-08-13">
+      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
+    </release>
+    <release version="2.5" date="2025-08-11">
+      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
+    </release>
+  </releases>
+</component>
