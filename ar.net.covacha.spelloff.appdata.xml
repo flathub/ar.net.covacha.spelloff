@@ -68,10 +68,10 @@
       <description>
         <ul>
           <li>
-            Implemented damage dealt batching to allow damage from each lightning shot bullet to be shown added up.
+            Damage dealt now adds up during a brief window. This makes lightning shots display full damage dealt.
           </li>
           <li>
-            Implemented camera tilting, applied when strafing and upon receiving knockback. A preference to disabled was added to the preferences menu too.
+            Camera now tilts when strafing and upon receiving knockback. A preference to disable this behaviour was added too.
           </li>
         </ul>
       </description>
