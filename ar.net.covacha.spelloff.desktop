@@ -2,7 +2,7 @@
 [Desktop Entry]
 Name=Spelloff
 GenericName=Spelloff
-Comment=The orb ponderer's arena FPS
+Comment=The orb ponderer's arena first-person shooter
 Exec=spelloff
 Icon=ar.net.covacha.spelloff
 Type=Application

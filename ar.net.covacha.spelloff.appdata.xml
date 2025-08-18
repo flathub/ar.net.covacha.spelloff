@@ -11,6 +11,7 @@
   
 	<categories>
 	  <category>Game</category>
+	  <category>Shooter</category>
 	</categories>
   
   <summary>The orb ponderer's arena first-person shooter</summary>
@@ -22,10 +23,10 @@
   <url type="vcs-browser">https://covacha.net.ar/~ramiro/public_git/spelloff</url>
   
   <description>
+	  <p><em>This game is an early prototype.</em></p>
 	  <p>
 	    Spelloff is a multiplayer first-person shooter game. It plays like traditional arena-shooters such as Quake. It features fast-paced 1 vs. 1 duels and configurable free and team deathmatch modes.
     </p>
-	  <p>This game is an early prototype.</p>
   </description>
   
   <screenshots>
@@ -34,6 +35,13 @@
           https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/duel.png
       </image>
       <caption>Duel game in progress</caption>
+    </screenshot>
+    
+    <screenshot environment="gnome">
+      	<image>
+          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/tdm.png
+      </image>
+      <caption>Team-deathmatch game in progress</caption>
     </screenshot>
     
     <screenshot environment="gnome">
@@ -57,13 +65,22 @@
   
   <releases>
     <release version="2.7" date="2025-08-14">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
+      <description>
+        <ul>
+          <li>
+            Damage dealt now adds up during a brief window. This makes lightning shots display full damage dealt.
+          </li>
+          <li>
+            Camera now tilts when strafing and upon receiving knockback. A preference to disable this behaviour was added too.
+          </li>
+        </ul>
+      </description>
     </release>
+    
     <release version="2.6" date="2025-08-13">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
     </release>
+    
     <release version="2.5" date="2025-08-11">
-      <url>https://covacha.net.ar/~ramiro/public_git/spelloff/releases/</url>
     </release>
   </releases>
 </component>
