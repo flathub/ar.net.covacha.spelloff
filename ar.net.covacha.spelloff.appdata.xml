@@ -64,6 +64,22 @@
   </content_rating>
   
   <releases>
+    <release version="3.0" date="2025-08-20">
+      <description>
+        <ul>
+          <li>
+            Fixed a bug where teams would sometimes be assigned incorrectly in deathmatch mode
+          </li>
+          <li>
+            Fixed client disconnections crashing other clients' game
+          </li>
+          <li>
+            Fix players sometimes deploying two spells when respawning
+          </li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.7" date="2025-08-14">
       <description>
         <ul>
