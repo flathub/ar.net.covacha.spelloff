@@ -25,7 +25,7 @@
   <description>
 	  <p><em>This game is an early prototype.</em></p>
 	  <p>
-	    Spelloff is a multiplayer first-person shooter game. It plays like traditional arena-shooters such as Quake. It features fast-paced 1 vs. 1 duels and configurable free and team deathmatch modes.
+	    Spelloff is a multiplayer first-person shooter game. It plays like traditional arena-shooters such as Quake. It features fast-paced 1 vs. 1 duels and a configurable deathmatch mode.
     </p>
   </description>
   
@@ -39,13 +39,6 @@
     
     <screenshot environment="gnome">
       	<image>
-          https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/tdm.png
-      </image>
-      <caption>Team-deathmatch game in progress</caption>
-    </screenshot>
-    
-    <screenshot environment="gnome">
-      	<image>
           https://raw.githubusercontent.com/flathub/ar.net.covacha.spelloff/master/screenshots/end.png
       </image>
       <caption>Finished game, with final scores displayed</caption>
@@ -53,7 +46,7 @@
   </screenshots>
   
   <branding>
-    <color type="primary" scheme_preference="light">#d64d4d</color>
+    <color type="primary" scheme_preference="light">#d70000</color>
     <color type="primary" scheme_preference="dark">#7d0000</color>
   </branding>
   
@@ -64,6 +57,28 @@
   </content_rating>
   
   <releases>
+      <release version="4.0" date="2026-02-27">
+      <description>
+        <ul>
+          <li>
+            Reworked spell selection. You no longer pick 3 spells and instead choose one of three classes, represented by elements fire, wind and earth. Each equips the player with different spells, some existing, some changed and some new.
+          </li>
+          <li>
+            Overhauled menu UX
+          </li>
+          <li>
+            Updated map layouts and added placeholder textures
+          </li>
+          <li>
+            Removed teams feature, as it had issues and was deemed out-of-scope
+          </li>
+          <li>
+            Added a placeholder model for the player
+          </li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="3.0" date="2025-08-20">
       <description>
         <ul>
