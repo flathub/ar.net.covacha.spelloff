@@ -29,14 +29,14 @@
 					"type": "file",
 					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.0.pck",
 					"sha256": "d282678bf0f88f45d54365ec560fa70f21ae0ea2432e9d1d1a5f7df8261e3623",
-					"dest-filename": "spelloff-v4.0.pck"
+					"dest-filename": "spelloff.pck"
 				},
 				{
 					"type": "script",
 					"dest-filename": "spelloff.sh",
 					"commands": [
 						"cd /app/bin",
-						"/app/bin/godot-runner --main-pack /app/bin/spelloff-v4.0.pck \"$@\""
+						"/app/bin/godot-runner \"$@\""
 					]
 				},
 				{
@@ -54,7 +54,7 @@
 			],
 			"build-commands": [
 				"install -Dm755 spelloff.sh /app/bin/spelloff",
-				"install -Dm644 spelloff-v4.0.pck /app/bin/spelloff-v4.0.pck",
+				"install -Dm644 spelloff.pck /app/bin/asset/data.pck",
 				"install -Dm644 ${FLATPAK_ID}.desktop /app/share/applications/${FLATPAK_ID}.desktop",
 				"install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml",
 				"install -Dm644 icon-256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png"
