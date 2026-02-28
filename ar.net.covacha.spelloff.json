@@ -28,7 +28,7 @@
 				{
 					"type": "file",
 					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.0.pck",
-					"sha256": "50fff9350be23cce95b1619f4ec523797272e5ca2815eeba0300417e4154deeb",
+					"sha256": "d282678bf0f88f45d54365ec560fa70f21ae0ea2432e9d1d1a5f7df8261e3623",
 					"dest-filename": "spelloff.pck"
 				},
 				{
