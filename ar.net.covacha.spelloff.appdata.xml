@@ -60,6 +60,19 @@
   </content_rating>
 
   <releases>
+    <release version="4.3" date="2026-03-07">
+      <description>
+        <ul>
+          <li>
+            Fix games being able to end even before enough players were connected
+          </li>
+          <li>
+            Fix lobby player list not displaying nicknames client-side
+          </li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="4.2" date="2026-03-07">
       <description>
         <ul>
