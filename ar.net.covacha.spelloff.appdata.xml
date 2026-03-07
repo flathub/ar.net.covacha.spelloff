@@ -60,6 +60,19 @@
   </content_rating>
 
   <releases>
+    <release version="4.2" date="2026-03-07">
+      <description>
+        <ul>
+          <li>
+            Fix various bugs related to the ending of games
+          </li>
+          <li>
+            Fix map selection not re-applaying when switching rule presets
+          </li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="4.1" date="2026-02-28">
       <description>
         <ul>
