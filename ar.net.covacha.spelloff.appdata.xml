@@ -64,7 +64,7 @@
       <description>
         <ul>
           <li>
-            Improved performance
+            Improved general performance
           </li>
         </ul>
       </description>
@@ -74,10 +74,10 @@
       <description>
         <ul>
           <li>
-            Fix games being able to end even before enough players were connected
+            Games can no longer end before enough players are connected
           </li>
           <li>
-            Fix lobby player list not displaying nicknames client-side
+            Lobby player list now displays nicknames correctly on clients
           </li>
         </ul>
       </description>
@@ -87,10 +87,10 @@
       <description>
         <ul>
           <li>
-            Fix various bugs related to the ending of games
+            Fixed various bugs related to the ending of games
           </li>
           <li>
-            Fix map selection not re-applaying when switching rule presets
+            Map selection is now correctly reset upon rule preset switch
           </li>
         </ul>
       </description>
@@ -100,7 +100,7 @@
       <description>
         <ul>
           <li>
-            Fixed performance drop that occured while ablaze
+            Ablaze particles no longer cause a drop in performance
           </li>
         </ul>
       </description>
@@ -137,10 +137,10 @@
             Fixed a bug where teams would sometimes be assigned incorrectly in deathmatch mode
           </li>
           <li>
-            Fixed client disconnections crashing other clients' game
+            Client disconnections no longer crash other clients' game
           </li>
           <li>
-            Fix players sometimes deploying two spells when respawning
+            Players no longer sometimes deploying two spells when respawning
           </li>
         </ul>
       </description>
