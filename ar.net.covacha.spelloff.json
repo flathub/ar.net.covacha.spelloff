@@ -21,14 +21,14 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.3.tar.gz",
+					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.4.tar.gz",
 					"strip-components": 0,
-					"sha256": "c17a3a8c0793c4d9c54f7e965563f19276005c1a115d63fbd3db20dfe484eafc"
+					"sha256": "18977df37b759f37edec57387878e31817b90e93f95890599f4046df914e2b24"
 				},
 				{
 					"type": "file",
-					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.3.pck",
-					"sha256": "de30b6cd496cac2ff288b959a497abd3058c9541231f267573b69753bcafb41a",
+					"url": "https://covacha.net.ar/~ramiro/public_git/spelloff/releases/spelloff-v4.4.pck",
+					"sha256": "0606629b49e1676a7797e687355243b2080dc5b82e7584e24b60adc18ee3244f",
 					"dest-filename": "spelloff.pck"
 				},
 				{
