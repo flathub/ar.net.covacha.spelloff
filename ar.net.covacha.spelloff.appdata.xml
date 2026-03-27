@@ -60,6 +60,19 @@
   </content_rating>
 
   <releases>
+    <release version="4.5" date="2026-03-26">
+      <description>
+        <ul>
+          <li>
+            Uncapped lives rule on duels
+          </li>
+          <li>
+            Added UI elements describing spells and attributes for each element
+          </li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="4.4" date="2026-03-23">
       <description>
         <ul>
