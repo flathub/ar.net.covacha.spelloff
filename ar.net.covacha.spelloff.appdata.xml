@@ -60,6 +60,37 @@
   </content_rating>
 
   <releases>
+    <release version="5.0" date="2026-05-19">
+      <description>
+        <ul>
+			<li>
+				Implemented new ice element
+			</li>
+			<li>
+				Rebalanced other elements
+			</li>
+			<li>
+				Implemented a menu to remap actions, found in the preferences menu
+			</li>
+			<li>
+				Visually overhauled maps
+			</li>
+			<li>
+				Added won games counter
+			</li>
+			<li>
+				Added a label displaying cooldown for spent potions
+			</li>
+			<li>
+				Reduced cooldown for smaller potions and increased it for bigger ones
+			</li>
+			<li>
+				Lowered default lives count on duels to 5 from 7
+			</li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="4.5" date="2026-03-26">
       <description>
         <ul>
