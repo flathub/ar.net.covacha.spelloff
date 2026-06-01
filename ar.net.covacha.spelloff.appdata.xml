@@ -60,6 +60,16 @@
   </content_rating>
 
   <releases>
+    <release version="5.1" date="2026-06-01">
+      <description>
+        <ul>
+			<li>
+				Reduced client-side jittering (hopefully)
+			</li>
+        </ul>
+      </description>
+    </release>
+    
     <release version="5.0" date="2026-05-19">
       <description>
         <ul>
